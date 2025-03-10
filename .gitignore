@@ -34,7 +34,7 @@
 /config/master.key
 
 # Ignore database configuration
-/config/database.yml
+# /config/database.yml
 
 # Ignore environment variables
 .env
