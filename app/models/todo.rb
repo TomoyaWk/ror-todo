@@ -3,7 +3,7 @@ class Todo < ApplicationRecord
   validates :status, presence: true
 
   attribute :status, :integer
-  
+
   enum :status, {
     todo: 0,
     wip: 1,
